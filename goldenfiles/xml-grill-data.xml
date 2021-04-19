@@ -1,0 +1,371 @@
+<?xml version="1.0"?>
+<restaurant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1" name="Koala XML Grill" storename="Koala" brand="koala" brandid="ca4b7477-4000-e811-80dd-0e1f910c8464" telephone="5555555555" streetaddress="158 Roebling Street" city="Brooklyn" zip="11211" state="NY" country="US" latitude="40.7139379" longitude="-73.95794" allowtips="true" showspecialinstructions="false" allowasap="true" specialinstructionsmaxlength="20" supportscurbside="false" supportsdispatch="true" supportsdrivethru="false" supportsdinein="false" supportsguestordering="true" supportssplitpayments="true" slug="koala-xml" supportsgrouporders="true" supportsproductrecipientnames="false">
+  <billingdetails>
+    <billingmethods>
+      <billingmethod>Cash</billingmethod>
+      <billingmethod>Gift Card</billingmethod>
+      <billingmethod>Credit Card</billingmethod>
+    </billingmethods>
+  </billingdetails>
+  <hours>
+    <period type="pickup" day="Friday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Friday" from="11:00" to="24:00" />
+    <period type="pickup" day="Monday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Monday" from="11:00" to="24:00" />
+    <period type="pickup" day="Saturday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Saturday" from="11:00" to="24:00" />
+    <period type="pickup" day="Sunday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Sunday" from="11:00" to="24:00" />
+    <period type="pickup" day="Thursday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Thursday" from="11:00" to="24:00" />
+    <period type="pickup" day="Tuesday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Tuesday" from="11:00" to="24:00" />
+    <period type="pickup" day="Wednesday" from="11:00" to="24:00" />
+    <period type="dispatch" day="Wednesday" from="11:00" to="24:00" />
+  </hours>
+  <allhours>
+    <basehours>
+      <period type="pickup" day="Friday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Friday" from="11:00" to="24:00" />
+      <period type="pickup" day="Monday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Monday" from="11:00" to="24:00" />
+      <period type="pickup" day="Saturday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Saturday" from="11:00" to="24:00" />
+      <period type="pickup" day="Sunday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Sunday" from="11:00" to="24:00" />
+      <period type="pickup" day="Thursday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Thursday" from="11:00" to="24:00" />
+      <period type="pickup" day="Tuesday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Tuesday" from="11:00" to="24:00" />
+      <period type="pickup" day="Wednesday" from="11:00" to="24:00" />
+      <period type="dispatch" day="Wednesday" from="11:00" to="24:00" />
+    </basehours>
+    <overridehours>
+      <dateperiod date="2020-11-26T00:00:00" type="pickup" from="00:00" to="00:00" />
+      <dateperiod date="2020-12-25T00:00:00" type="pickup" from="00:00" to="00:00" />
+    </overridehours>
+  </allhours>
+  <menu>
+    <categories>
+      <category id="21323" name="Specials" extref="4bd7cc94-c2e4-4268-91d3-4f615ca19b5f" sortorder="0">
+        <products>
+          <product id="13316920" chainproductid="124496" name="60 Cent Boneless Wings" description="Get an order of our delicious boneless wings, sauced and tossed in your favorite flavor, for just 60 cents per wing.&#xD;&#xA;&#xD;&#xA;Only at participating locations." cost="0.0000" extref="3ADB2CE0-0C99-4974-BFFE-DDF3E24662E6" isdisabled="false" minimumquantity="1" minimumbasketquantity="" quantityincrement="1" shortdescription="" sortorder="0">
+            <modifiers>
+              <optiongroup id="482626409" chainid="58635" description="Choose Boneless Wing Quantity:" mandatory="true" supportschoicequantities="false" choicequantityincrement="1" sortorder="0">
+                <options>
+                  <option id="2356968827" chainid="321679" name="10 Boneless" isdefault="false" cost="6.0000" adjustsparentcalories="false" basecalories="800" maxcalories="1100" caloriesseparator="-" adjustsparentprice="true" sortorder="0">
+                    <modifiers>
+                      <optiongroup id="482626790" chainid="34598" description="Choose Flavors:" mandatory="false" minselects="1" maxselects="2" supportschoicequantities="true" minaggregatequantity="10" maxaggregatequantity="10" maxchoicequantity="10" minchoicequantity="2" choicequantityincrement="1" explanationtext="" sortorder="0">
+                        <options>
+                          <option id="2356972108" chainid="194297" name="Atomic" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="0">
+                            <metadata>
+                              <data key="icon" value="atomic" />
+                              <data key="heat-scale" value="5" />
+                              <data key="description" value="Sauce, sweat and tears. This is the hottest we got for the boldest of the bold. Dare to wing it." />
+                            </metadata>
+                          </option>
+                          <option id="2356972109" chainid="194298" name="Mango Habanero" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="1">
+                            <metadata>
+                              <data key="icon" value="mango-habanero" />
+                              <data key="heat-scale" value="4" />
+                              <data key="description" value="Don’t be fooled. This sweet wing has got a bite. Just when you think you’re swimming in sweetness, the habanero kicks, full throttle." />
+                            </metadata>
+                          </option>
+                          <option id="2356972110" chainid="194299" name="Cajun" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="3">
+                            <metadata>
+                              <data key="icon" value="cajun" />
+                              <data key="heat-scale" value="4" />
+                              <data key="description" value="It’s all the warmth of Original Hot mixed with the bold, zesty flavors of Louisiana. It’s bound to make you sing." />
+                            </metadata>
+                          </option>
+                          <option id="2356972111" chainid="194300" name="Original Hot" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="7">
+                            <metadata>
+                              <data key="icon" value="original-hot" />
+                              <data key="heat-scale" value="3" />
+                              <data key="description" value="It’s the sauce we first tossed, the one that made us famous. It’s the classic blend of heat and tang that gives this wing its flavorful kick." />
+                              <data key="popular" value="true" />
+                            </metadata>
+                          </option>
+                          <option id="2356972112" chainid="194301" name="Louisiana Rub" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="14">
+                            <metadata>
+                              <data key="icon" value="louisiana-rub" />
+                              <data key="heat-scale" value="3" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="A crispy dry rub, a hint of garlic, plus some Deep South Cajun love and you’ve got a wing that’s simply addictive." />
+                            </metadata>
+                          </option>
+                          <option id="2356972113" chainid="194302" name="Mild" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="15">
+                            <metadata>
+                              <data key="icon" value="mild" />
+                              <data key="heat-scale" value="2" />
+                              <data key="description" value="It’s all the flavor of Original Hot without the burn. It may be mild without the wild, but it’s still got that classic buffalo spirit." />
+                            </metadata>
+                          </option>
+                          <option id="2356972114" chainid="194303" name="Hickory Smoked BBQ" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="16">
+                            <metadata>
+                              <data key="icon" value="hickory-smoked-bbq" />
+                              <data key="heat-scale" value="2" />
+                              <data key="description" value="Bold, smoky, sweet and rich, this barbeque sauce has got it all. It’s all the flavors of a summer night distilled into one." />
+                            </metadata>
+                          </option>
+                          <option id="2356972115" chainid="194304" name="Lemon Pepper" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="19">
+                            <metadata>
+                              <data key="icon" value="lemon-pepper" />
+                              <data key="heat-scale" value="1" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="Made with hearty pepper and zesty lemon, this sauce has people craving it from coast to coast." />
+                              <data key="popular" value="true" />
+                            </metadata>
+                          </option>
+                          <option id="2356972116" chainid="194305" name="Garlic Parmesan" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="20">
+                            <metadata>
+                              <data key="icon" value="garlic-parmesan" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="Savory garlic, buttery Parmesan cheese, this great blend of flavors is worth wrecking your breath for." />
+                            </metadata>
+                          </option>
+                          <option id="2356972117" chainid="194306" name="Hawaiian" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="22">
+                            <metadata>
+                              <data key="icon" value="hawaiian" />
+                              <data key="description" value="Sweet and tangy, this sauce has a fruity blend of island citrus balanced with rich Asian flavors." />
+                            </metadata>
+                          </option>
+                          <option id="2356972118" chainid="194308" name="Plain" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="23">
+                            <metadata>
+                              <data key="icon" value="plain" />
+                              <data key="description" value="No flavor?  No problem.  Get em plain.  " />
+                            </metadata>
+                          </option>
+                          <option id="2356972119" chainid="534594" name="Spicy Korean Q" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="13">
+                            <metadata>
+                              <data key="icon" value="spicy-korean-q" />
+                              <data key="heat-scale" value="3" />
+                              <data key="description" value="A harmonious balance of sweet and spicy. Ginger and garlic meet Sriracha &amp; crushed red pepper to guide you on a journey to flavor nirvana." />
+                            </metadata>
+                          </option>
+                        </options>
+                      </optiongroup>
+                      <optiongroup id="482626789" chainid="35008" description="Special Instructions:" mandatory="false" minselects="0" maxselects="1" supportschoicequantities="false" choicequantityincrement="1" explanationtext="" sortorder="1">
+                        <options>
+                          <option id="2356972107" chainid="196506" name="Extra Well Done" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="0">
+                          </option>
+                        </options>
+                      </optiongroup>
+                      <optiongroup id="482626791" chainid="60555" description="Add a Dip?" mandatory="false" minselects="0" maxselects="6" supportschoicequantities="false" choicequantityincrement="1" explanationtext="" sortorder="2">
+                        <options>
+                          <option id="2356972130" chainid="333214" name="Large Ranch" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1550" adjustsparentprice="true" sortorder="10">
+                          </option>
+                          <option id="2356972131" chainid="333215" name="Large Bleu Cheese" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1550" adjustsparentprice="true" sortorder="12">
+                          </option>
+                          <option id="2356972132" chainid="333216" name="Large Honey Mustard" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1770" adjustsparentprice="true" sortorder="14">
+                          </option>
+                          <option id="2356972133" chainid="337907" name="Regular Ranch" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="310" adjustsparentprice="true" sortorder="2">
+                          </option>
+                          <option id="2356972134" chainid="337908" name="Regular Bleu Cheese" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="310" adjustsparentprice="true" sortorder="4">
+                          </option>
+                          <option id="2356972135" chainid="337909" name="Regular Honey Mustard" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="360" adjustsparentprice="true" sortorder="6">
+                          </option>
+                        </options>
+                      </optiongroup>
+                    </modifiers>
+                  </option>
+                  <option id="2356968828" chainid="321680" name="15 Boneless" isdefault="false" cost="9.0000" adjustsparentcalories="false" basecalories="1200" maxcalories="1650" caloriesseparator="-" adjustsparentprice="true" sortorder="1">
+                    <modifiers>
+                      <optiongroup id="482626793" chainid="34639" description="Choose Flavors:" mandatory="false" minselects="1" maxselects="2" supportschoicequantities="true" minaggregatequantity="15" maxaggregatequantity="15" maxchoicequantity="15" minchoicequantity="2" choicequantityincrement="1" explanationtext="" sortorder="0">
+                        <options>
+                          <option id="2356972137" chainid="194614" name="Atomic" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="0">
+                            <metadata>
+                              <data key="icon" value="atomic" />
+                              <data key="heat-scale" value="5" />
+                              <data key="description" value="Sauce, sweat and tears. This is the hottest we got for the boldest of the bold. Dare to wing it." />
+                            </metadata>
+                          </option>
+                          <option id="2356972138" chainid="194615" name="Mango Habanero" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="1">
+                            <metadata>
+                              <data key="icon" value="mango-habanero" />
+                              <data key="heat-scale" value="4" />
+                              <data key="description" value="Don’t be fooled. This sweet wing has got a bite. Just when you think you’re swimming in sweetness, the habanero kicks, full throttle." />
+                            </metadata>
+                          </option>
+                          <option id="2356972139" chainid="194616" name="Cajun" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="3">
+                            <metadata>
+                              <data key="icon" value="cajun" />
+                              <data key="heat-scale" value="4" />
+                              <data key="description" value="It’s all the warmth of Original Hot mixed with the bold, zesty flavors of Louisiana. It’s bound to make you sing." />
+                            </metadata>
+                          </option>
+                          <option id="2356972140" chainid="194617" name="Original Hot" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="7">
+                            <metadata>
+                              <data key="icon" value="original-hot" />
+                              <data key="heat-scale" value="3" />
+                              <data key="description" value="It’s the sauce we first tossed, the one that made us famous. It’s the classic blend of heat and tang that gives this wing its flavorful kick." />
+                              <data key="popular" value="true" />
+                            </metadata>
+                          </option>
+                          <option id="2356972141" chainid="194618" name="Louisiana Rub" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="13">
+                            <metadata>
+                              <data key="icon" value="louisiana-rub" />
+                              <data key="heat-scale" value="3" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="A crispy dry rub, a hint of garlic, plus some Deep South Cajun love and you’ve got a wing that’s simply addictive." />
+                            </metadata>
+                          </option>
+                          <option id="2356972142" chainid="194619" name="Mild" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="14">
+                            <metadata>
+                              <data key="icon" value="mild" />
+                              <data key="heat-scale" value="2" />
+                              <data key="description" value="It’s all the flavor of Original Hot without the burn. It may be mild without the wild, but it’s still got that classic buffalo spirit." />
+                            </metadata>
+                          </option>
+                          <option id="2356972143" chainid="194620" name="Hickory Smoked BBQ" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="15">
+                            <metadata>
+                              <data key="icon" value="hickory-smoked-bbq" />
+                              <data key="heat-scale" value="2" />
+                              <data key="description" value="Bold, smoky, sweet and rich, this barbeque sauce has got it all. It’s all the flavors of a summer night distilled into one." />
+                            </metadata>
+                          </option>
+                          <option id="2356972144" chainid="194621" name="Lemon Pepper" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="18">
+                            <metadata>
+                              <data key="icon" value="lemon-pepper" />
+                              <data key="heat-scale" value="1" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="Made with hearty pepper and zesty lemon, this sauce has people craving it from coast to coast." />
+                              <data key="popular" value="true" />
+                            </metadata>
+                          </option>
+                          <option id="2356972145" chainid="194622" name="Garlic Parmesan" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="19">
+                            <metadata>
+                              <data key="icon" value="garlic-parmesan" />
+                              <data key="rub-type" value="dry" />
+                              <data key="description" value="Savory garlic, buttery Parmesan cheese, this great blend of flavors is worth wrecking your breath for." />
+                            </metadata>
+                          </option>
+                          <option id="2356972146" chainid="194623" name="Hawaiian" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="21">
+                            <metadata>
+                              <data key="icon" value="hawaiian" />
+                              <data key="description" value="Sweet and tangy, this sauce has a fruity blend of island citrus balanced with rich Asian flavors." />
+                            </metadata>
+                          </option>
+                          <option id="2356972147" chainid="194625" name="Plain" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="22">
+                            <metadata>
+                              <data key="icon" value="plain" />
+                              <data key="description" value="No flavor?  No problem.  Get em plain.  " />
+                            </metadata>
+                          </option>
+                          <option id="2356972148" chainid="534596" name="Spicy Korean Q" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="12">
+                            <metadata>
+                              <data key="icon" value="spicy-korean-q" />
+                              <data key="heat-scale" value="3" />
+                              <data key="description" value="A harmonious balance of sweet and spicy. Ginger and garlic meet Sriracha &amp; crushed red pepper to guide you on a journey to flavor nirvana." />
+                            </metadata>
+                          </option>
+                        </options>
+                        <metadata>
+                          <data key="layout" value="flavor" />
+                        </metadata>
+                      </optiongroup>
+                      <optiongroup id="482626792" chainid="35008" description="Special Instructions:" mandatory="false" minselects="0" maxselects="1" supportschoicequantities="false" choicequantityincrement="1" explanationtext="" sortorder="1">
+                        <options>
+                          <option id="2356972136" chainid="196506" name="Extra Well Done" isdefault="false" cost="0.0000" adjustsparentcalories="false" adjustsparentprice="false" sortorder="0">
+                          </option>
+                        </options>
+                        <metadata>
+                          <data key="grouping" value="special-requests" />
+                        </metadata>
+                      </optiongroup>
+                      <optiongroup id="482626794" chainid="60555" description="Add a Dip?" mandatory="false" minselects="0" maxselects="6" supportschoicequantities="false" choicequantityincrement="1" explanationtext="" sortorder="2">
+                        <options>
+                          <option id="2356972153" chainid="333214" name="Large Ranch" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1550" adjustsparentprice="true" sortorder="10">
+                          </option>
+                          <option id="2356972154" chainid="333215" name="Large Bleu Cheese" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1550" adjustsparentprice="true" sortorder="12">
+                          </option>
+                          <option id="2356972155" chainid="333216" name="Large Honey Mustard" isdefault="false" cost="3.4900" adjustsparentcalories="true" basecalories="1770" adjustsparentprice="true" sortorder="14">
+                          </option>
+                          <option id="2356972156" chainid="337907" name="Regular Ranch" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="310" adjustsparentprice="true" sortorder="2">
+                          </option>
+                          <option id="2356972157" chainid="337908" name="Regular Bleu Cheese" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="310" adjustsparentprice="true" sortorder="4">
+                          </option>
+                          <option id="2356972158" chainid="337909" name="Regular Honey Mustard" isdefault="false" cost="0.9900" adjustsparentcalories="true" basecalories="360" adjustsparentprice="true" sortorder="6">
+                          </option>
+                        </options>
+                      </optiongroup>
+                    </modifiers>
+                  </option>
+                </options>
+              </optiongroup>
+            </modifiers>
+            <availability>
+              <startDate xsi:nil="true" />
+              <endDate xsi:nil="true" />
+              <times>
+                <timerange>
+                  <from day="Monday" time="00:00" />
+                  <to day="Tuesday" time="24:00" />
+                </timerange>
+              </times>
+            </availability>
+            <unavailablehandoffmodes>
+              <handoffmode>drivethru</handoffmode>
+              <handoffmode>dinein</handoffmode>
+            </unavailablehandoffmodes>
+          </product>
+        </products>
+      </category>
+      <category id="11231" name="Drinks" extref="A77AAB33-77D6-48D9-A9E0-FC06C5527C7B" sortorder="12">
+        <products>
+          <product id="22103038" chainproductid="253148" name="Simply Lemonade®" description="You'll never have to make your own lemonade again. 52 oz. Simply Lemonade is a refreshing alternative to homemade lemonades for the crew." cost="0.0000" extref="2be663d5-0524-458a-93fd-7e6f71a66d38" isdisabled="false" minimumquantity="1" minimumbasketquantity="" quantityincrement="1" shortdescription="" sortorder="0">
+            <modifiers>
+              <optiongroup id="784226308" chainid="501627" description="Simply Lemonade®" mandatory="true" supportschoicequantities="false" choicequantityincrement="1" explanationtext="" sortorder="0">
+                <options>
+                  <option id="3649322393" chainid="2583861" name="52 oz Simply Lemonade®" isdefault="true" cost="4.9900" adjustsparentcalories="false" basecalories="840" adjustsparentprice="true" sortorder="0" />
+                </options>
+              </optiongroup>
+            </modifiers>
+            <availability>
+              <startDate xsi:nil="true" />
+              <endDate xsi:nil="true" />
+              <times>
+                <timerange>
+                  <from day="Sunday" time="00:00" />
+                  <to day="Saturday" time="24:00" />
+                </timerange>
+              </times>
+            </availability>
+            <unavailablehandoffmodes>
+              <handoffmode>drivethru</handoffmode>
+              <handoffmode>dinein</handoffmode>
+            </unavailablehandoffmodes>
+          </product>
+        </products>
+      </category>
+      <category id="11651" name="Desserts" extref="13384E9E-8772-456E-9539-24F9C42614EF" sortorder="13">
+        <products>
+          <product id="11701601" chainproductid="188649" name="Triple Chocolate Chunk Brownie" description="The perfect blend of chocolate chips and chocolate chunks are mixed in this delicious brownie." cost="0.0000" extref="B26AB1BD-B0A8-49BC-9298-FCEAE1FC3C77" isdisabled="false" minimumquantity="1" minimumbasketquantity="" quantityincrement="1" shortdescription="" sortorder="0">
+            <modifiers>
+              <optiongroup id="439654994" chainid="316095" description="Triple Chocolate Brownie" mandatory="true" supportschoicequantities="false" choicequantityincrement="1" sortorder="0">
+                <options>
+                  <option id="2151945371" chainid="1531522" name="Triple Chocolate Brownie" isdefault="true" cost="1.9900" adjustsparentcalories="false" basecalories="430" adjustsparentprice="true" sortorder="0" />
+                </options>
+              </optiongroup>
+            </modifiers>
+            <availability>
+              <startDate xsi:nil="true" />
+              <endDate xsi:nil="true" />
+              <times>
+                <timerange>
+                  <from day="Sunday" time="00:00" />
+                  <to day="Saturday" time="24:00" />
+                </timerange>
+              </times>
+            </availability>
+            <unavailablehandoffmodes>
+              <handoffmode>curbside</handoffmode>
+              <handoffmode>drivethru</handoffmode>
+              <handoffmode>dinein</handoffmode>
+            </unavailablehandoffmodes>
+          </product>
+        </products>
+      </category>
+    </categories>
+  </menu>
+</restaurant>

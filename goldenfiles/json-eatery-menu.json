@@ -1,0 +1,507 @@
+{
+	"objects": [
+		{
+			"type": "CATEGORY",
+			"id": "7SJHJ3UCSF2XQ2XXH3T567IV",
+			"updated_at": "2019-04-15T18:28:36.925Z",
+			"version": 1555352916925,
+			"is_deleted": false,
+			"category_data": {
+				"name": "Hot Dogs"
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "R4VA6IHG6VISKE7L66BGIQQ4",
+			"updated_at": "2019-05-14T23:32:49.751Z",
+			"version": 1557876769751,
+			"is_deleted": false,
+			"item_data": {
+				"name": "Hot Dog",
+				"description": "A normal, All-American hot diggity dog",
+				"visibility": "PRIVATE",
+				"category_id": "7SJHJ3UCSF2XQ2XXH3T567IV",
+				"modifier_list_info": [
+					{
+						"modifier_list_id": "JKRFAAAT263QKYA2WVIQFXWA",
+						"visibility": "PUBLIC",
+						"modifier_overrides": [
+							{
+								"modifier_id": "44TR2Y6C4S47G3VEFBYM46OD",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "WTR5LXJZVXJAWCCABTIJJGWA",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "SMNZPO7BCF74N5P7GZWA2QKM",
+								"on_by_default": false
+							},
+							{
+								"modifier_id": "GDPPC7XUBSMLZYRCGAQM5RMU",
+								"on_by_default": false
+							}
+						],
+						"min_selected_modifiers": -1,
+						"max_selected_modifiers": -1,
+						"enabled": true
+					}
+				],
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "FPI5Q4XCKDNDJMWAJRVJIRZY",
+						"updated_at": "2019-04-15T18:28:37.048Z",
+						"version": 1555352917048,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "R4VA6IHG6VISKE7L66BGIQQ4",
+							"name": "Regular",
+							"sku": "HOTDOG1",
+							"ordinal": 1,
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 499,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"time_ranges": [
+					{
+						"from": {
+							"day": "Sunday",
+							"time": "00:00"
+						},
+						"to": {
+							"day": "Saturday",
+							"time": "23:59"
+						}
+					}
+				],
+				"product_type": "REGULAR",
+				"skip_modifier_screen": false
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "J4U3VEVYXNZTIKQIL4Q3HCH3",
+			"updated_at": "2019-04-15T19:19:02.582Z",
+			"version": 1555355942582,
+			"is_deleted": false,
+			"item_data": {
+				"name": "Garden Dog",
+				"description": "Like a hot dog, but not",
+				"visibility": "PRIVATE",
+				"category_id": "7SJHJ3UCSF2XQ2XXH3T567IV",
+				"modifier_list_info": [
+					{
+						"modifier_list_id": "JKRFAAAT263QKYA2WVIQFXWA",
+						"visibility": "PUBLIC",
+						"modifier_overrides": [
+							{
+								"modifier_id": "44TR2Y6C4S47G3VEFBYM46OD",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "WTR5LXJZVXJAWCCABTIJJGWA",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "SMNZPO7BCF74N5P7GZWA2QKM",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "GDPPC7XUBSMLZYRCGAQM5RMU",
+								"on_by_default": false
+							}
+						],
+						"min_selected_modifiers": -1,
+						"max_selected_modifiers": -1,
+						"enabled": true
+					}
+				],
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "RAV35JA65ROZPSHYT2PQ32ME",
+						"updated_at": "2019-04-15T18:57:10.627Z",
+						"version": 1555354630627,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "J4U3VEVYXNZTIKQIL4Q3HCH3",
+							"name": "Regular",
+							"sku": "",
+							"ordinal": 1,
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 599,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"time_ranges": [
+					{
+						"from": {
+							"day": "Monday",
+							"time": "00:00"
+						},
+						"to": {
+							"day": "Friday",
+							"time": "23:59"
+						}
+					}
+				],
+				"product_type": "REGULAR",
+				"skip_modifier_screen": false
+			}
+		},
+		{
+			"type": "CATEGORY",
+			"id": "VJOPLGH5AAVHLY4VDWKSXS4N",
+			"updated_at": "2019-04-15T18:37:25.631Z",
+			"version": 1555353445631,
+			"is_deleted": false,
+			"category_data": {
+				"name": "Soft Drinks"
+			}
+		},
+		{
+			"type": "MODIFIER_LIST",
+			"id": "3FA3XSO5OVXG2O5XOI7ZZPWY",
+			"updated_at": "2019-04-15T18:30:35.781Z",
+			"version": 1555353035781,
+			"is_deleted": false,
+			"modifier_list_data": {
+				"name": "Drink Sizes",
+				"selection_type": "SINGLE",
+				"modifiers": [
+					{
+						"type": "MODIFIER",
+						"id": "ROISIGIEJHALCCAO673Z5YAT",
+						"version": 1555353035781,
+						"modifier_data": {
+							"name": "Small",
+							"on_by_default": true,
+							"ordinal": 1
+						}
+					},
+					{
+						"type": "MODIFIER",
+						"id": "YVAVISC2MLV23OD4VSXSWPJF",
+						"version": 1555353035781,
+						"modifier_data": {
+							"name": "Medium",
+							"price_money": {
+								"amount": 100,
+								"currency": "USD"
+							},
+							"on_by_default": false,
+							"ordinal": 2
+						}
+					},
+					{
+						"type": "MODIFIER",
+						"id": "CRQ75KC5YBEAM3BP3YI5SQIL",
+						"version": 1555353035781,
+						"modifier_data": {
+							"name": "Large",
+							"price_money": {
+								"amount": 200,
+								"currency": "USD"
+							},
+							"on_by_default": false,
+							"ordinal": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "6S6THSFSCPU3FZFCEFL4VPLZ",
+			"updated_at": "2019-04-15T18:37:40.088Z",
+			"version": 1555353460088,
+			"is_deleted": false,
+			"item_data": {
+				"name": "Fountain Soda",
+				"description": "It's cold and delicious- beyond that, the origins and purpose of this product are lost to science",
+				"visibility": "PRIVATE",
+				"category_id": "VJOPLGH5AAVHLY4VDWKSXS4N",
+				"modifier_list_info": [
+					{
+						"modifier_list_id": "3FA3XSO5OVXG2O5XOI7ZZPWY",
+						"visibility": "PUBLIC",
+						"modifier_overrides": [
+							{
+								"modifier_id": "ROISIGIEJHALCCAO673Z5YAT",
+								"on_by_default": true
+							},
+							{
+								"modifier_id": "YVAVISC2MLV23OD4VSXSWPJF",
+								"on_by_default": false
+							},
+							{
+								"modifier_id": "CRQ75KC5YBEAM3BP3YI5SQIL",
+								"on_by_default": false
+							}
+						],
+						"min_selected_modifiers": 1,
+						"max_selected_modifiers": 1,
+						"enabled": true
+					}
+				],
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "B2ZEBRYRYPO6K3F4PM764KPH",
+						"updated_at": "2019-04-15T18:37:25.762Z",
+						"version": 1555353445762,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "6S6THSFSCPU3FZFCEFL4VPLZ",
+							"name": "Regular",
+							"sku": "FOUNTAIN",
+							"ordinal": 1,
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 200,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"time_ranges": [
+					{
+						"from": {
+							"day": "Sunday",
+							"time": "00:00"
+						},
+						"to": {
+							"day": "Saturday",
+							"time": "23:59"
+						}
+					}
+				],
+				"product_type": "REGULAR",
+				"skip_modifier_screen": false
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "XMIMB3M5J4PF2NSGDE2XPYC7",
+			"updated_at": "2019-04-15T18:39:22.549Z",
+			"version": 1555353562549,
+			"is_deleted": false,
+			"item_data": {
+				"name": "Iced Tea",
+				"description": "It's tea, but someone left it out and it got cold. We're just trying to roll with it, man.",
+				"visibility": "PRIVATE",
+				"category_id": "VJOPLGH5AAVHLY4VDWKSXS4N",
+				"modifier_list_info": [
+					{
+						"modifier_list_id": "3FA3XSO5OVXG2O5XOI7ZZPWY",
+						"visibility": "PUBLIC",
+						"min_selected_modifiers": -1,
+						"max_selected_modifiers": -1,
+						"enabled": true
+					}
+				],
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "77HZSK7F7ON5JH5S7LKB74TT",
+						"updated_at": "2019-04-15T18:39:13.521Z",
+						"version": 1555353553521,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "XMIMB3M5J4PF2NSGDE2XPYC7",
+							"name": "Regular",
+							"sku": "ICEDTEA",
+							"ordinal": 1,
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 200,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"time_ranges": [
+					{
+						"from": {
+							"day": "Saturday",
+							"time": "00:00"
+						},
+						"to": {
+							"day": "Sunday",
+							"time": "23:59"
+						}
+					}
+				],
+				"product_type": "REGULAR",
+				"skip_modifier_screen": false
+			}
+		},
+		{
+			"type": "CATEGORY",
+			"id": "UPHBRYLO2IR6HYJCFS6BT7WR",
+			"updated_at": "2019-05-13T23:39:12.508Z",
+			"version": 1557790752508,
+			"is_deleted": false,
+			"category_data": {
+				"name": "Specials"
+			}
+		},
+		{
+			"type": "CATEGORY",
+			"id": "HXVW7HX4LEFZYSRD6FMTPGIY",
+			"updated_at": "2019-05-13T23:39:12.508Z",
+			"version": 1557790752508,
+			"is_deleted": false,
+			"category_data": {
+				"name": "Merchandise"
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "AZ53LRVRBDDGALHZKPLMZAKE",
+			"updated_at": "2019-05-13T23:39:15.923Z",
+			"version": 1557790755923,
+			"is_deleted": false,
+			"item_data": {
+				"name": "Look What You Made Me Brew Shirt",
+				"visibility": "PRIVATE",
+				"category_id": "HXVW7HX4LEFZYSRD6FMTPGIY",
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "4PRVB6FKV2CGL5GL2JOVOLDQ",
+						"updated_at": "2019-05-13T23:39:15.923Z",
+						"version": 1557790755923,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "AZ53LRVRBDDGALHZKPLMZAKE",
+							"name": "Large",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2500,
+								"currency": "USD"
+							}
+						}
+					},
+					{
+						"type": "ITEM_VARIATION",
+						"id": "KXZKGZX2PBBUWCSLFUHII57Z",
+						"updated_at": "2019-05-13T23:39:15.923Z",
+						"version": 1557790755923,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "AZ53LRVRBDDGALHZKPLMZAKE",
+							"name": "Medium",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2500,
+								"currency": "USD"
+							}
+						}
+					},
+					{
+						"type": "ITEM_VARIATION",
+						"id": "Q6UTZIA3Z5QP7NHLSE7ZNG3H",
+						"updated_at": "2019-05-13T23:39:15.021Z",
+						"version": 1557790755021,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "AZ53LRVRBDDGALHZKPLMZAKE",
+							"name": "Small",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2500,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"time_ranges": [
+					{
+						"from": {
+							"day": "Sunday",
+							"time": "00:00"
+						},
+						"to": {
+							"day": "Saturday",
+							"time": "23:59"
+						}
+					}
+				],
+				"product_type": "REGULAR"
+			}
+		},
+		{
+			"type": "ITEM",
+			"id": "ZQAD5CKVKL3EU7LELZUSDPIZ",
+			"updated_at": "2019-05-13T23:39:15.021Z",
+			"version": 1557790755021,
+			"is_deleted": false,
+			"item_data": {
+				"name": "How To Make Matcha Shirt",
+				"visibility": "PRIVATE",
+				"category_id": "HXVW7HX4LEFZYSRD6FMTPGIY",
+				"variations": [
+					{
+						"type": "ITEM_VARIATION",
+						"id": "LW5HZD2X23OEHXPSAEAD4IGP",
+						"updated_at": "2019-05-13T23:39:15.021Z",
+						"version": 1557790755021,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "ZQAD5CKVKL3EU7LELZUSDPIZ",
+							"name": "Large",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2000,
+								"currency": "USD"
+							}
+						}
+					},
+					{
+						"type": "ITEM_VARIATION",
+						"id": "FQYC37LXKP6LCYQAW4SYDU4O",
+						"updated_at": "2019-05-13T23:39:15.021Z",
+						"version": 1557790755021,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "ZQAD5CKVKL3EU7LELZUSDPIZ",
+							"name": "Medium",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2000,
+								"currency": "USD"
+							}
+						}
+					},
+					{
+						"type": "ITEM_VARIATION",
+						"id": "Q4RFGLKSI2YND42SQJAI3YDM",
+						"updated_at": "2019-05-13T23:39:15.021Z",
+						"version": 1557790755021,
+						"is_deleted": false,
+						"item_variation_data": {
+							"item_id": "ZQAD5CKVKL3EU7LELZUSDPIZ",
+							"name": "Small",
+							"pricing_type": "FIXED_PRICING",
+							"price_money": {
+								"amount": 2000,
+								"currency": "USD"
+							}
+						}
+					}
+				],
+				"product_type": "REGULAR"
+			}
+		}
+	]
+}

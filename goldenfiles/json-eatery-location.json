@@ -1,0 +1,61 @@
+{
+	"locations": [
+		{
+			"id": "2",
+			"name": "Koala JSON Eatery",
+			"address": {
+				"locality": "BROOKLYN",
+				"administrative_district_level_1": "NY",
+				"postal_code": "11211",
+				"country": "US"
+			},
+			"timezone": "America/New_York",
+			"capabilities": [
+				"CREDIT_CARD_PROCESSING"
+			],
+			"status": "ACTIVE",
+			"created_at": "2017-12-06T14:45:57Z",
+			"merchant_id": "3QQFX74E33D5F",
+			"country": "US",
+			"language_code": "en-US",
+			"currency": "USD",
+			"business_name": "Koala",
+			"type": "PHYSICAL",
+			"phone_number": "+1 555-555-5555",
+			"business_hours": {
+				"periods": [
+					{
+						"day_of_week": "MON",
+						"start_local_time": "09:00:00",
+						"end_local_time": "20:00:00"
+					},
+					{
+						"day_of_week": "TUE",
+						"start_local_time": "09:00:00",
+						"end_local_time": "20:00:00"
+					},
+					{
+						"day_of_week": "WED",
+						"start_local_time": "09:00:00",
+						"end_local_time": "20:00:00"
+					},
+					{
+						"day_of_week": "THU",
+						"start_local_time": "09:00:00",
+						"end_local_time": "20:00:00"
+					},
+					{
+						"day_of_week": "FRI",
+						"start_local_time": "09:00:00",
+						"end_local_time": "20:00:00"
+					}
+				]
+			},
+			"description": "",
+			"coordinates": {
+				"latitude": 40.7139379,
+				"longitude": -73.95794
+			}
+		}
+	]
+}
