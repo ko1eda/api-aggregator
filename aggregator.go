@@ -1,4 +1,4 @@
-package koala
+package aggregator
 
 // These are the root data types for our application
 type Menu struct {
